@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_game.*
 
 class GameActivity : AppCompatActivity() {
     //回したかどうかのチェック用
-    var check: Array<String> = arrayOf("回していいよ！", "回していいよ！", "回していいよ！")
+    var check: Array<String> = arrayOf("回していいよ", "回していいよ", "回していいよ")
 
     //カウントが３までいったらリザルト処理
     var slotcount = 0
